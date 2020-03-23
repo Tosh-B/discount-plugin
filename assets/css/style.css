@@ -1,0 +1,125 @@
+.outss {
+	display:none;
+    opacity: 0;
+    font-family: Arial;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.outssye {
+    opacity: 1;
+	display:block;
+}
+
+.outsscl {
+    cursor: pointer;
+    position: absolute;
+    line-height: 32px;
+    font-size: 32px;
+    top: 0px;
+    right: 5px;
+    color: #e40000;
+}
+
+.outsscl:hover {
+    color: #000;
+}
+
+.outss .outssback {
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.outss .outsstext {
+    padding: 20px 20px;
+    border: 5px solid #ffd26c;
+    background: #F6FCFF;
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    margin-left: -25%;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.outss .outsstext button{
+    display:block;
+	margin:15px auto 0;
+}
+
+.exit_discount, .return_discount_discount{display:none;}
+
+
+
+.outss_new {
+	display:none;
+    opacity: 0;
+    font-family: Arial;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.outssye_new {
+    opacity: 1;
+	display:block;
+}
+
+.outsscl_new {
+    cursor: pointer;
+    position: absolute;
+    line-height: 32px;
+    font-size: 32px;
+    top: 0px;
+    right: 5px;
+    color: #e40000;
+}
+
+.outsscl_new:hover {
+    color: #000;
+}
+
+.outss_new .outssback_new {
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.outss_new .outsstext_new {
+    padding: 20px 20px;
+    border: 5px solid #ffd26c;
+    background: #F6FCFF;
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    margin-left: -25%;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.outss_new .outsstext_new button{
+    display:block;
+	margin:15px auto 0;
+}
